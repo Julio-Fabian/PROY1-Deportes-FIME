@@ -2,47 +2,13 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
-body {
-    color: #292929;
-    font: 90% Roboto, Arial, sans-serif;
-    font-weight: 300;
-}
-
-p {
-    padding: 0 10px;
-    line-height: 1.8;
-}
-
-ul li {
-    padding-right: 10px;
-    line-height: 1.6;
-}
-
-h3 {
-    padding: 5px 20px;
-    margin: 0;
-}
-
-div#header {
-    position: relative;
-}
-
-div#header h1 {
-    height: 80px;
-    line-height: 80px;
-    margin: 0;
-    padding-left: 10px;
-    background: #e0e0e0;
-    color: #292929;
-}
-
-div#header a {
-    position: absolute;
-    right: 0;
-    top: 23px;
-    padding: 10px;
-    color: #006;
+.uanl{
+    text-decoration: none;
+    color: black !important;
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0px 10px;
 }
 
 div#navigation {
@@ -90,4 +56,61 @@ div#extra {
 div#footer {
     clear: both;
     width: 100%
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f2ed;
+    padding: 0px 10px;
+}
+.social{
+    /*las imágenes usadas tienen width de 48px*/
+    position:fixed;
+    top:20px;
+    right:0;
+}
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffff;
+    padding: 0px 10px;
+}
+.contenedorlogonombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logofime{
+    width: 50px;
+    padding: 20px;
+}
+.contenedornombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 60px;
+    border-left: 1px solid #333333;
+}
+.nombrefime{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contenedorbuscador{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.buscador{
+    padding:15px
 }
