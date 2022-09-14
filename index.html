@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="archivos_css/index.css">
+    <link rel="stylesheet" href="archivos_css/indexFooter.css">
+    <link rel="stylesheet" href="archivos_css/estilosCarrucel.css">
+    <link rel="stylesheet" href="archivos_css/estilosnav.css">
+
     <script src="https://kit.fontawesome.com/3d53f97e54.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/372517b426.js" crossorigin="anonymous"></script>
 
@@ -39,6 +43,16 @@
               </form>
         </div>
     </div>
+    <nav class="menu"> <!--Barra de navegación-->
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Deportes</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--
     </div>
     <!--AQUI INICIA MENÚ (nO ESTA TERMINADO) -->
     <div>
@@ -116,6 +130,7 @@
                </p>
            </div>
        </div>
+
        <div id="navigation">
            <p><strong>2. Navigation Menu</strong></p>
            <h3>Styling Flex Container</h3>
@@ -146,16 +161,39 @@
            </ul>
        </div>
 
-
-       <!-- AQUI ESTARA EL PIE DE PAGINA, CON LOGOS Y LAS DIAPOSITIVAS -->
-       <div id="footer"><p>Footer</p>
-            <div id="footerLogos">
-                <!--Este sera en donde esten las 3 imagenes de la UANL-->
-            </div>
-            <div id="footerPresentacion">
-                <!--Aqui se encontrara la galeria de fotos (deportes fime)-->
-            </div>
-       </div>
+    -->
    </div>
+
+          <!-- AQUI ESTARA EL PIE DE PAGINA, CON LOGOS Y LAS DIAPOSITIVAS -->
+          <div class="footer">
+                <div class="footerLogos">
+                    <!--Este sera en donde esten las 3 imagenes de la UANL-->
+                    <img class="footerImage" src="imagenes_proyecto/footerImagenes/Escudo-UANL-negro.png">
+                    <img class="footerImage" src="imagenes_proyecto/footerImagenes/logotipo-vision-2030.png">
+                    <img class="footerImage" src="imagenes_proyecto/footerImagenes/fime_logo-01.png">
+                </div>
+
+                <!--Carrucel de fotografias
+                URL de la fuente: https://www.migueltroyano.com/css/crear-un-carrusel-automatico-en-html-y-css-sin-javascript/
+                Aun no esta terminado!
+                -->
+
+                <div id="carrusel-contenido">
+                    <div id="carrusel-caja">
+                        <div class="carrusel-elemento">
+                            <img class="imagenes" src="imagenes_proyecto/imagenesCarrucel/carrucel1.jpg"/>
+                        </div>
+            
+                        <div class="carrusel-elemento">
+                            <img class="imagenes" src="imagenes_proyecto/imagenesCarrucel/carrucel2.jpg"/>
+                        </div>
+            
+                        <div class="carrusel-elemento">
+                            <img class="imagenes" src="imagenes_proyecto/imagenesCarrucel/carrucel3.jpg"/>
+                        </div>
+            
+                    </div>
+                </div>
+           </div>
    </body>
 </html>
