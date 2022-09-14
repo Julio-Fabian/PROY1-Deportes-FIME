@@ -1,0 +1,29 @@
+.menu{
+	font-family: "Benton Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+	list-style: none;
+	padding: 0;
+	background: #006135;
+	width: 100%;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: white;
+	color: #006135;
+}
+
