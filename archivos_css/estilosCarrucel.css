@@ -14,7 +14,7 @@ h1 {
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
 
-    height: 300px;
+    height: 260px;
     width: 300%;
 }
 
@@ -22,12 +22,18 @@ h1 {
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
+    padding-top: 10px;
 }
 
 .imagenes{
     background-size: cover;
-    height: 350px;
-    width: 60%;
+    height: 250px;
+    width: 267.333px
+}
+.imagenesnoticias{
+    background-size: cover;
+    height: 500px;
+    width: 802px
 }
 
 .carrusel-elemento {
