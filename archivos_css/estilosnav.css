@@ -1,4 +1,7 @@
 .menu{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: flex-start;
 	font-family: "Benton Sans", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -6,8 +9,9 @@
 	list-style: none;
 	padding: 0;
 	background: #006135;
-	width: 100%;
+	min-width: 100vh;
 	margin: auto;
+	width: 100%;
 }
 
 .menu li a{

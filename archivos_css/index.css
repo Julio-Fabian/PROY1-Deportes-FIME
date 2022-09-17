@@ -1,4 +1,4 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
 }
@@ -10,56 +10,6 @@ html, body {
     font-size: 20px;
     padding: 0px 10px;
 }
-
-div#navigation {
-    background: #7cb71c;
-}
-
-div#navigation li {
-    list-style: none;
-}
-
-div#extra {
-    background: #147FA9;
-}
-
-
-div#footer {
-    background: #42444e;
-    color: #fff;
-}
-
-div#footer p {
-    padding: 20px 10px;
-}
-
-div#wrapper {
-    float: left;
-    width: 100%;
-    margin-left: -200px
-}
-
-div#content {
-    margin-left: 200px
-}
-
-div#navigation {
-    float: right;
-    width: 200px
-}
-
-div#extra {
-    float: right;
-    clear: right;
-    width: 200px
-}
-
-
-div#footer {
-    clear: both;
-    width: 100%
-}
-
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +20,7 @@ div#footer {
 }
 .social{
     /*las imágenes usadas tienen width de 48px*/
-    position:fixed;
+    position:absolute;
     top:20px;
     right:0;
 }
@@ -116,112 +66,3 @@ div#footer {
 .buscador{
     padding:15px
 }
-/* MENÚ*/
-.menu{
-	list-style: none;
-	padding: 0;
-	background: rgb(0, 97, 56);
-	width: 100%;
-	align-items: center;
-	margin: auto;
-}
-
-.menu li a{
-	align-items: center;
-	text-decoration: none;
-	color: white;
-	padding: 20px;
-	display: block;
-}
-
-.menu li{
-	display: inline-block;
-	text-align: center;
-}
-.nav li ul{
-	display: none;
-	position: absolute;
-}
-
-.menu li a:hover{
-	background: #ffffff;
-	color: rgb(0, 97, 56);
-}
-/* Aqui acaba Menú*/
-
-/*AQUI EMPPIEZA CARRUSEL*/
-
-.carrousel{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.carrousel{
-    width: 100%;
-}
-
-.conteCarrousel{
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-}
-
-.itemCarrousel{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.itemCarrouselTarjeta{
-    width: 100%;
-    height: 100%;
-}
-
-.itemCarrouselArrows{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px; 
-}
-
-.itemCarrouselArrows > i:hover {
-    cursor: pointer;
-}
-
-#itemCarrousel-1{
-    background-color: rgb(226, 50, 50);
-}
-
-#itemCarrousel-2{
-    background-color: rgb(50, 200, 226);
-}
-
-#itemCarrousel-3{
-    background-color: rgb(200, 226, 50);
-}
-
-.conteCarrouselController{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.conteCarrouselController > a{
-    text-decoration: none;
-    font-size: 2em;
-    color: grey;
-}
-
-.itemCarrouselArrows > a > i{
-    color: white;
-}
-
-/*AQUI TERMINA CARRUSEL*/

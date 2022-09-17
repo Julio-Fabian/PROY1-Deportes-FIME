@@ -1,19 +1,16 @@
-.footer {
-    background-color: rgb(0, 97, 53);
-    position: absolute;
+.prefooter {
+    background-color: white;
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
-.footerLogos {
+.prefooterlogos {
     background-color: white;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly; 
 }
 
 .footerImage {
