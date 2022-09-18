@@ -1,0 +1,131 @@
+body{
+  background-image: url(https://www.fime.uanl.mx/wp-content/uploads/2021/10/fime-fachada.png);
+}
+.americanofoto{
+    width: 650px;
+    height: 500px;
+    padding-right: 30px;
+  }
+  .americanotext{
+    padding-left: 10px;
+    padding-top: 30px;
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  /*.contenedordeportes{
+    background: #f4f2ed;
+    flex:content
+    
+  }*/
+  .listadeportes{
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+  .gridDeportes{
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .grid-containerD {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 1em;
+    justify-content: center;
+    background: #f4f2ed;
+    width: 1100px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(11, 90, 0, 0.4);
+    color: white;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  
+  
+  /* for touch screen devices */
+  @media (hover: none) { 
+    .location-title {
+      opacity: 1;
+    }
+    .location-image img {
+      filter: blur(2px);
+    }
+  }
+  .contenedorLista{
+    background-color: #f4f2ed;;
+    width: 190px;
+    margin-left: 180px;
+  }
+  .contenedorAmericano{
+    justify-content: center;
+    background: #f4f2ed;
+    width: 1100px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: fit-content;
+  }
+  .descripcion{
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
