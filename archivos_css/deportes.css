@@ -7,11 +7,10 @@ body{
     padding-right: 30px;
   }
   .americanotext{
-    padding-left: 10px;
     padding-top: 30px;
     font-family: "Times New Roman", serif;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 30px;
   }
   /*.contenedordeportes{
     background: #f4f2ed;
@@ -128,4 +127,9 @@ body{
     display: flex;
     flex-direction: column;
     float: right;
+  }
+  .descripcionDeporte{
+    font-family: "Times New Roman", serif;
+    font-weight: lighter;
+    font-size: 15px;
   }
