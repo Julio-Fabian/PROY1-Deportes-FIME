@@ -1,5 +1,10 @@
 body{
   background-image: url(https://www.fime.uanl.mx/wp-content/uploads/2021/10/fime-fachada.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
 .americanofoto{
     width: 650px;
