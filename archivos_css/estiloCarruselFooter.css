@@ -9,16 +9,16 @@
     overflow-y: hidden;
 
     /*borde del elemento y sobresalida*/
-    padding: 30px;
+    padding-top: 10px;
 }
 
 /* Diseno de un solo elemento del carrusel*/
 .carrusel-item {    
-    min-width: 300px;
-    min-width: 300px;
-    height:    300px;
+    min-width: 250px;
+    min-width: 250px;
+    height:    250px;
 
-    border: 2px solid green;
+    border: 2px solid rgb(2, 104, 2);
 }
 
 .carrusel-item img {

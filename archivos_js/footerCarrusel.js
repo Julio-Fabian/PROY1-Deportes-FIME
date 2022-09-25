@@ -23,11 +23,12 @@ const start = () => {
     }, 10);
 }
 
-/*
+
 // cuando seleccionamos la imagen se detiene
 const stop = () => {
     clearInterval(intervalo); // esto es un evento del mouse.
 }
+
 
 // evento del mouse.
 //                                     // funcion de flecha como las lambda en Java
@@ -39,7 +40,7 @@ carrusel.addEventListener('mouseover', () => {
 carrusel.addEventListener('mouseout', () => {
     // cuando colocas el mouse fuera, reanudas el movimiento
     start();
-}); */
+}); 
 
 ////////////////////// MAIN //////////////////////////////////////////////////
 
