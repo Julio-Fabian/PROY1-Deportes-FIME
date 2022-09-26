@@ -9,7 +9,7 @@
     overflow-y: hidden;
 
     /*borde del elemento y sobresalida*/
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /* Diseno de un solo elemento del carrusel*/
@@ -17,8 +17,17 @@
     min-width: 250px;
     min-width: 250px;
     height:    250px;
+}
+.carruselIt{    
+    min-width: 650px;
+    height:    550px;
+}
+.carruselI{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
-    border: 2px solid rgb(2, 104, 2);
+    /*borde del elemento y sobresalida*/
 }
 
 .carrusel-item img {
