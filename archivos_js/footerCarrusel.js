@@ -34,11 +34,12 @@ const stop = () => {
 //                                     // funcion de flecha como las lambda en Java
 carrusel.addEventListener('mouseover', () => {
     // cuando colocas el mouse en cima, se detiene
-    stop();
+    //stop(); // <--- posibles cambio
 });
 
 carrusel.addEventListener('mouseout', () => {
     // cuando colocas el mouse fuera, reanudas el movimiento
+    stop();
     start();
 }); 
 
