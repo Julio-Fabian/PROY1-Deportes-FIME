@@ -133,6 +133,7 @@ body{
     display: flex;
     flex-direction: column;
     float: right;
+    width: 420px;
   }
   .descripcionDeporte{
     font-family: "Times New Roman", serif;
@@ -232,4 +233,37 @@ body{
     .event .event-left .event-date{
         padding: 10px 0;
     }
+}
+.subtemita{
+  background: rgb(0, 97, 53);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    /*border-radius:16px;*/
+    font-size: 14px; 
+    height: 30px;
+    width:auto
+}
+.minifoto{
+  width:30px ;
+  height:50px ;
+}
+.cajoncito{
+  display: flex;
+    flex-direction: column;
+    float: right;
+    width:max-content
+}
+.minifotocontenedor{
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: max-content;
+}
+.entrenadores{
+  justify-content: center;
+    width: 420px;
+    margin: auto;
 }
