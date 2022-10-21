@@ -246,24 +246,3 @@ body{
     height: 30px;
     width:auto
 }
-.minifoto{
-  width:30px ;
-  height:50px ;
-}
-.cajoncito{
-  display: flex;
-    flex-direction: column;
-    float: right;
-    width:max-content
-}
-.minifotocontenedor{
-  display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: max-content;
-}
-.entrenadores{
-  justify-content: center;
-    width: 420px;
-    margin: auto;
-}
