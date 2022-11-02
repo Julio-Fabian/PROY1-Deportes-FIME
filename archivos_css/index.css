@@ -72,7 +72,21 @@ body {
 footer{
     margin-top: auto;
 }
+/*Galeria de Noticias*/
+.gridnoticias {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+}
+h2 {
+  margin-bottom: .5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 1em;
+  justify-content: center;
 
+}
   
   
   /* hover styles */
@@ -142,7 +156,7 @@ footer{
     height: 600px;
     padding-left: 10px;
   }
-  /*Seccion Noticias */
+  /*Seccion Noticias *
   .container-card{
     width: 100%;
     display: flex;
