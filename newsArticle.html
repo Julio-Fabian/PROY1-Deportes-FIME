@@ -12,6 +12,9 @@
 
     <link rel="stylesheet" href="archivos_css/estiloCarruselFooter.css">
     <link rel="stylesheet" href="archivos_css/estilo_carrusel_main.css">
+    
+    <!--CSS de la galeria-->
+    <link rel="stylesheet" href="estilo-galeria.css">
 
     <link rel="stylesheet" href="archivos_css/articulo-noticia.css">
     <link rel="stylesheet" href="archivos_css/deportes.css">
@@ -83,8 +86,61 @@
             auctor. Vel cursus dictum senectus neque ante nullam suspendisse lacinia, fames eros dictumst curae nisi
             fringilla himenaeos risus molestie, torquent cum feugiat auctor tempus eu netus.</p>
 
-        <div class="img-container">
-            <img class="imagen-articulo" src="/imagenes_proyecto/Americano.jpg" alt="">
+        <div class="galery-container">
+
+            <div id="conteItemsCarrusel">
+        
+                <!--Item 1 del elemento de la galeria.-->
+                <div class="itemCarrusel" id="itemCarrusel-1">
+        
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        <img src="./img/americano1.jpg" alt="foto1">
+                    </div>
+            
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-3"> <i class="fas fa-chevron-left"></i> </a>
+                        <a href="#itemCarrusel-2"> <i class="fas fa-chevron-right"></i> </a>
+                    </div>
+                    
+                </div>
+        
+        
+                <!--Item 2 del elemento de la galeria.-->
+                <div class="itemCarrusel" id="itemCarrusel-2">
+        
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        <img src="./img/americano2.jpg" alt="foto1">
+                    </div>
+            
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-1"> <i class="fas fa-chevron-left"></i> </a>
+                        <a href="#itemCarrusel-3"> <i class="fas fa-chevron-right"></i> </a>
+                    </div>
+                    
+                </div>
+        
+                <!--Item 3 del elemento de la galeria.-->
+                <div class="itemCarrusel" id="itemCarrusel-3">
+        
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        <img src="./img/americano3.jpg" alt="foto1">
+                    </div>
+            
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-2"> <i class="fas fa-chevron-left"></i> </a>
+                        <a href="#itemCarrusel-1"> <i class="fas fa-chevron-right"></i> </a>
+                    </div>
+                    
+                </div>
+        
+            </div>
+        
+            <div id="contePuntos">
+                <a href="#itemCarrusel-1"> <b>•</b> </a>
+                <a href="#itemCarrusel-2"> <b>•</b> </a>
+                <a href="#itemCarrusel-3"> <b>•</b> </a>
+            </div>
+            
         </div>
 
         <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipiscing elit bibendum justo rhoncus eros odio, integer neque

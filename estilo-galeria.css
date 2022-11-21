@@ -1,0 +1,57 @@
+
+
+#conteItemsCarrusel {
+    /*border: 5px solid black; */
+    height: 400px;
+    overflow: hidden;
+}
+
+.itemCarrusel {
+    /*border: 1px solid black;*/
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel {
+    background-color: aquamarine;
+    height: 100%;
+
+}
+
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#contePuntos {
+    display: flex;
+    justify-content: center;
+}
+
+#contePuntos > a {
+    font-size: 2.0em;
+
+    font-style: none;
+    color: rgb(59, 59, 59);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: white;
+}
