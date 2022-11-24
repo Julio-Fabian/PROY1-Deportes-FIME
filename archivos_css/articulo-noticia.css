@@ -32,20 +32,19 @@ body {
 }
 .titular-2 {
     padding-left: 20px;
-    color: rgb(117, 117, 50);
-    font-size: 50px;
+    color: #006135;
+    font-size: 60px;
 }
 
 .titular-3 {
     padding-left: 20px;
     padding-bottom: 10px;
-    color: rgb(128, 128, 128);
-    font-size: 22px;
+    color: black;
+    font-size: 18px;
 }
 
 .parrafo {
-    font-size: 18px;
-    font-family: Verdana;
+    font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
